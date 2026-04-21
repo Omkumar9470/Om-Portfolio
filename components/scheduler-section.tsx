@@ -76,10 +76,10 @@ export function SchedulerSection() {
                       Direct Line
                     </h4>
                     <a
-                      href="tel:+919876543210"
+                      href="tel:+919470624800"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +91 (987) 654-3210
+                      +91 9470624800
                     </a>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ export function SchedulerSection() {
                       Operating Hours
                     </h4>
                     <p className="text-muted-foreground">
-                      Mon - Fri: 9:00 AM - 6:00 PM GMT
+                      Mon - Fri: 11:00 AM - 5:00 PM GMT
                     </p>
                   </div>
                 </div>
@@ -121,38 +121,20 @@ export function SchedulerSection() {
                 </h3>
               </div>
 
-              {/* Calendly Inline Widget Container */}
+              {/* Calendly Inline Widget */}
               <div className="flex-1 border border-border/50 bg-[#0a0a0a] overflow-hidden min-h-[400px]">
-                {/* 
-                  To integrate Calendly, add this script to your layout.tsx head:
-                  <script src="https://assets.calendly.com/assets/external/widget.js" async />
-                  
-                  Then replace this div with:
-                  <div 
-                    className="calendly-inline-widget w-full h-full" 
-                    data-url="https://calendly.com/YOUR_USERNAME?hide_gdpr_banner=1&background_color=0a0a0a&text_color=e5e5e5&primary_color=c9a962"
-                  />
-                */}
-                <div className="flex flex-col items-center justify-center h-full p-8 text-center">
-                  <div className="w-16 h-16 border-2 border-primary/30 rounded-full flex items-center justify-center mb-6">
-                    <Calendar className="w-8 h-8 text-primary" />
-                  </div>
-                  <h4 className="font-serif text-lg text-foreground mb-2">
-                    Calendly Widget
-                  </h4>
-                  <p className="text-muted-foreground text-sm mb-4 max-w-xs">
-                    Add your Calendly URL to enable inline scheduling
-                  </p>
-                  <code className="text-xs text-primary/80 bg-secondary/50 px-4 py-2 border border-primary/20">
-                    data-url=&quot;calendly.com/your-link&quot;
-                  </code>
-                </div>
+                <iframe
+                  src="https://calendly.com/omkumar947062/30min?hide_gdpr_banner=1&background_color=0a0a0a&text_color=e5e5e5&primary_color=c9a962"
+                  title="Schedule a meeting with Om Pandey"
+                  className="w-full h-full min-h-[400px] border-0"
+                  loading="lazy"
+                />
               </div>
 
               {/* Alternative CTA */}
               <div className="mt-6">
                 <a
-                  href="https://calendly.com"
+                  href="https://calendly.com/omkumar947062/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group w-full inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-medium tracking-wider uppercase text-sm transition-all duration-300 hover:shadow-[0_0_30px_rgba(201,169,98,0.4)]"

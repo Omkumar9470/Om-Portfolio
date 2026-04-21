@@ -16,9 +16,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Webstan | By Order of the Peaky Blinders',
-  description: 'A sophisticated portfolio showcasing the works and ventures of Webstan - Where code meets craftsmanship.',
-  generator: 'v0.app',
+  title: 'Om Pandey',
+  description: 'Work Report Of Om Pandey',
+  generator: 'ompandey.me',
   icons: {
     icon: [
       {
